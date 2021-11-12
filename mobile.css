@@ -1,0 +1,155 @@
+@media(max-width:768px) {
+    
+    .header_burger {
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.815);
+        width: 50px;
+        height: 45px;
+        position: fixed;
+       
+        
+    }
+
+    .arrow {
+        position: fixed;
+        margin-left: 12px; 
+        margin-top: -40px;
+        width: 25px;
+        height: 25px;
+        border-top: 3px solid #ffffff;
+        border-right: 3px solid #ffffff; 
+        transform: rotate(135deg);
+    }
+
+   .active {
+       position: fixed;
+   }
+    
+    .mobile-nav {
+        margin-top: 45px;
+        background-color: rgba(0, 0, 0, 0.815);
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .mobile-nav a {
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px;
+        font-size: 20px;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .mobile-nav a:last-child {
+        border: none;
+    }
+
+    nav table {
+        display: none;
+        width: 80vw;
+        margin-top: 20px;
+        border-collapse: collapse;
+        border: 1px solid white;
+        text-align: center;    
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        color: white;
+        padding-top: 30px;
+        width: 100%;
+    }
+   
+    nav td {
+        border: 1px solid white;
+        width: 70px;
+        height: 47px;
+        
+    }
+   
+   
+    .new-collection_info .text {
+        width: 80%;
+        font-family: "Montserrat";
+        color: #282828;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        padding-top: 300px;
+        padding-bottom: 50px;
+    }
+
+    .button-1 {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .about {
+        padding: 40px 0; 
+    }
+
+    .about-info {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin: 0 auto;
+        
+        max-width: 70%;
+        height: auto;
+        border: 3px solid #C4C4C4;
+    }
+
+    .head {
+        padding-top: 30px;
+        font-family: "Playfair Display";
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .about-info .line {
+        width: 100px;
+    }
+
+    .about-info .text {
+        font-size: 12px;
+    }
+
+    .new-collection {
+      
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .new-collection_slider {
+        margin-top: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
