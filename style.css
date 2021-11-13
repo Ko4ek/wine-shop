@@ -41,7 +41,7 @@ nav th {
 
 nav td {
     border: 1px solid white;
-    width: 70px;
+    max-width: 70px;
     height: 47px;
 }
 
@@ -53,7 +53,6 @@ nav a {
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-
 }
 
 nav a:hover {
