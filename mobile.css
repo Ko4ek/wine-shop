@@ -136,11 +136,51 @@
 
     .new-collection_slider {
         margin-top: 0;
+        padding-bottom: 50px;
     }
 
+    .form1 , .form2 , .line-form {
+        display: none;
+    } 
 
+    .form {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
 
+    .form-text {
+        width: 85%;
+    }
 
+    .record {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .form-name, .form-number {
+        width: 100%;
+    }
+
+    .section-form {
+        padding-bottom: 70px;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+
+    footer {
+        padding: 25px 0;
+    }
+
+    .mobile-footer {
+        width: 80%;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
 
 
 

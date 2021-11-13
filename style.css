@@ -51,8 +51,14 @@ nav a {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 150%;
+
+}
+
+nav a:hover {
+    font-size: 20px;
+
 }
 
 .buttons {
@@ -74,6 +80,10 @@ nav a {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: #ceab1f;
 }
 
 .button-1 {
@@ -367,6 +377,7 @@ nav a {
     border: none;
     text-decoration: none;
     list-style-type: none;
+    outline: none;
     background-color: #282828;
     border-bottom: 1px solid #FFFFFF;
     color: white;
@@ -392,6 +403,10 @@ nav a {
     margin-top: 50px;
     width: 100%;
     background-color: #282828;
+}
+
+.sign-button:hover {
+    background-color: #0000005d;
 }
 
 footer {
@@ -476,4 +491,8 @@ footer {
     width: 25px;
     height: 18px;
     bottom: 72px;
+}
+
+.mobile-footer {
+    display: none;
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
@@ -13,17 +14,23 @@
 <body>
     <header>
         <div class="header">
+             <div class="header_burger ">
+                <div class="mobile-nav"></div>
+                <div class="nav-icon arrow"  onclick="menu()"></div>
+            </div>
             <div class="info">
                 <p class="adress">Новокузнечный переулок 4/1</p>
                 <p class="number-phone">8 (812) 123-45-67</p>
             </div>
-            <nav>
-                <table>
+           
+            
+            <nav id="nav" class="">
+                <table class="">
                     <tbody>
                     <tr>
-                    <td> <a href="">Каталог</a></td>
+                    <td><a href="">Каталог</a></td>
                     <td><a href="">Доставка</a></td>
-                    <td> <a href="">Коллекции</a></td>
+                    <td><a href="">Коллекции</a></td>
                     <td><a href="">Контакты</a></td>
                     </tr>
                     </tbody>
@@ -105,6 +112,10 @@
     </main>
     
     <footer>
+        <div class="mobile-footer">
+            <p>8 (812) 123-45-67</p>
+            <p>LE CORTE</p>
+        </div>
         <div class="footer-nav">
             <a href="">Главная</a>
             <a href="">Каталог</a>
@@ -130,7 +141,7 @@
                 </tbody>
             </table>
         </div>
-        
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
